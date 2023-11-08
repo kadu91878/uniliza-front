@@ -6,7 +6,7 @@
           <router-link to="/" class="navbar-item">
             <img class="logo" loading="lazy" src="../assets/images/logos/uniliza-logo.ico" />
           </router-link>
-          <router-link to="/" class="custom-link">Grupos de Carros</router-link>
+          <router-link to="/car-group" class="custom-link">Grupos de Carros</router-link>
           <router-link to="/" class="custom-link">Ofertas</router-link>
           <router-link to="/" class="custom-link">Dúvidas</router-link>
         </div>
@@ -37,6 +37,7 @@ import DateBar from '@/components/DateBar.vue'
   color: White;
 }
 .logo {
-  height: 100px;
+ height: 100px;
+ margin-left: 0;
 }
 </style>

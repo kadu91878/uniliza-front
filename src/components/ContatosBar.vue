@@ -3,7 +3,7 @@
     <h1>Contatos</h1>
     <div class="Contatos">
       <n-icon size="20">
-        <svg
+        <svg class="icon"
           xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink"
           viewBox="0 0 32 32"
@@ -16,7 +16,7 @@
       </n-icon>
       <p class="text">Envie sua mensagem</p>
       <n-icon size="20">
-        <svg
+        <svg class="icon"
           xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink"
           viewBox="0 0 24 24"
@@ -31,7 +31,7 @@
       </n-icon>
       <p class="text">Perguntas frequentes</p>
       <n-icon size="20">
-        <svg
+        <svg class="icon"
           xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink"
           viewBox="0 0 24 24"
@@ -44,7 +44,7 @@
       </n-icon>
       <p class="text">Central de reservas 24h - 0800 xxx xxxx</p>
       <n-icon size="20">
-        <svg
+        <svg class="icon"
           version="1.1"
           xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -74,7 +74,7 @@
     </div>
     <div class="social-network">
       <n-icon size="20">
-        <svg
+        <svg class="icon"
           xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink"
           viewBox="0 0 512 512"
@@ -86,7 +86,7 @@
         </svg>
       </n-icon>
       <n-icon size="20">
-        <svg
+        <svg class="icon"
           version="1.1"
           xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -107,7 +107,7 @@
         </svg>
       </n-icon>
       <n-icon size="20">
-        <svg
+        <svg class="icon"
           xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink"
           viewBox="0 0 448 512"
@@ -119,7 +119,7 @@
         </svg>
       </n-icon>
       <n-icon size="20">
-        <svg
+        <svg class="icon"
           version="1.1"
           xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -140,7 +140,7 @@
         </svg>
       </n-icon>
       <n-icon size="20">
-        <svg
+        <svg class="icon"
           xmlns="http://www.w3.org/2000/svg"
           xmlns:xlink="http://www.w3.org/1999/xlink"
           viewBox="0 0 1024 1024"
@@ -169,18 +169,23 @@ import { NIcon } from 'naive-ui'
 }
 
 .text {
-  margin: 0;
+  margin:0;
 }
 .social-network {
   display: flex;
   justify-content: center;
   align-items: flex-end;
   gap: 20px;
+  padding: 4%;
 }
 .container {
-  margin: 12%;
   margin-left: 12%;
   max-height: 50%;
   max-width: 50%;
+  margin-left:30%;
+}
+.icon{
+  display:flex;
+  align-items: center;
 }
 </style>
